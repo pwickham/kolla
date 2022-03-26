@@ -1,9 +1,9 @@
 # For non-x86 architectures we use sources.list.ubuntu.<arch>
 
 # Default repos
-deb http://mirror.aarnet.edu.au/pub/ubuntu/archive focal main universe
-deb http://mirror.aarnet.edu.au/pub/ubuntu/archive focal-updates main universe
-deb http://mirror.aarnet.edu.au/pub/ubuntu/archive focal-security main universe
+deb http://archive.ubuntu.com/ubuntu/ focal main universe
+deb http://archive.ubuntu.com/ubuntu/ focal-updates main universe
+deb http://archive.ubuntu.com/ubuntu/ focal-security main universe
 
 # Backports have a lower priority and must be explicitly installed to be used
 deb http://archive.ubuntu.com/ubuntu/ focal-backports main universe
